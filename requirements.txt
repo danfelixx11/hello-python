@@ -1,0 +1,2 @@
+# Bibliotecas necessárias
+# (adicione aqui ao longo do curso, exemplo: pandas, requests)

@@ -1,4 +1,12 @@
-conta = float(input("Digite o valor da conta: "))
-gorjeta = conta * 0.1
-print(f"Gorjeta de 10%: €{gorjeta:.2f}")
-print(f"Total com gorjeta: €{conta + gorjeta:.2f}")
+def calculadora_desconto():
+    while true:
+        try:
+            preco = float(input("Digite o preço do pruduto (R$): "))
+            break
+        except ValueError:
+            print("Erro! Digite apenas números.")
+    desconto_5 = preco * 0.95
+    desconto_10 = preco * 0.90
+    print(f"Preço original: R${preco:.2f}")
+    print(f"com 5% de desconto: R${desconto_5:.2f}")
+    print(f"Com 10% de desconto: R${desconto_10:.2f}")

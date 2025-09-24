@@ -1,6 +1,6 @@
 # Hello Python 🚀
 
-Este repositório contém meus estudos de **Python e Fundamentos de TI** com foco em carreira internacional (Irlanda).
+Este repositório contém meus estudos de **Python e Fundamentos de TI** com foco em carreira internacional.
 
 ## Estrutura
 - `semanaX/` → exercícios semanais
